@@ -1,0 +1,61 @@
+Tools used for webhacking
+1) Recon-ng - info gatherng
+2) knock.py - subdomain
+3) nmap - open ports
+4) Vega - vuln scanner
+5) Nikto - vuln scanner
+6) burp - vuln scanner
+7) Bwap- testing environment
+8) Wapplayzer - identifying Softwares & technologies in webapp
+9) Firebug extension - tamper data, editing html,css,js, detecting xss
+10) Hackbar - testing sql, xss, encryption, encoding & decoding
+11) user-aget switcher - useragent changer (For Eg: mozilla->ie)
+12) Sublist3r - subdomain 
+13) Wpscan - blackbox wordpress scanner (Enumerate Users, plugins, themes etc)
+14) Cmsmap - CMS Scanner (supports wp, joomla, drupal) 
+15) XSS Strike - detect xss
+16) sqlmap - detect sql
+17) Autorize - burp plugin (for authorization flaws)
+18) crt.sh - certificate search
+19) OSINT
+20) live http headers - for tampering - firefox extension
+
+vulnerabilities
+1)xss
+2)sql
+3)template injecton(xss via angularexpression, rce via angexp)
+4) Clickjacking
+5) openredirect(unvalidated redirect, css injection, xss, interstitial redirect bypass)
+6) CSRF (by url, changepassword, fullaccount takeover using socialmedialinks)
+7) CRLF injection - Http response splitting (addng header, via xss)
+8) Shellshock vulnerability
+9) SSRF (openport results in HTTP status of 504 gatewaytimeout, closedport results in unable to connect to server)
+10) Fullpath disclosure (combination with path traversal, image upload path disclosure)
+11) Insecure cryptographic storage
+12) Insecure direct object references - parameter tampering
+13) Broken Auth
+14) Privilege escalation
+15) Session mgt vuln (session hijacking, session fixation)
+16) application logic vuln (designissue, info disclosure, source disclosure with usr,pwd)
+17) Html injection (via xss, input fields)
+18) Xml external entity
+19) subdomain takeover (using externalservices like desk, squarespace, shopify, github, tumblr & heroku - need to see aws s3buckets, Cname)
+20) Remote file inclusion
+21) Remote code execution
+22) sensitive data exposure
+23) buffer overflow
+24) DNS Misconfiguration (localhost, samesite scripting, header misconfig, cookie misconfig, auth misconfig, crossdomain policy, dnssec mis)
+25) DOS
+26) http parameter pollution
+27) parameter delimeter
+28) Php injection(injecting images, txt files & rfi, xss in txt file places of url)
+29) Direct static code injection (injecting xss, php or any type of scripts in useragent header field in requester using livehttpheaders) 
+30) Cross site tracing attack (XST)
+
+
+websites
+1) panopticlick.eff.org - browser fingerprinting
+2) ipleak.net
+3) browserleaks.com/geo
+
+https://gist.github.com/joyrexus/85bf6b02979d8a7b0308
