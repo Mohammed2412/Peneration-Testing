@@ -1,2 +1,2 @@
-# Peneration-Testing
-List of Tools &amp; Materials for Peneration Testing
+# Penetration-Testing
+List of Tools &amp; Materials for Penetration Testing
