@@ -1,4 +1,6 @@
-Tools used for webhacking
+----------------------------------------------------------------------------------------------------------------------------------------
+                                                      Tools used for webhacking
+----------------------------------------------------------------------------------------------------------------------------------------
 1) Recon-ng - info gatherng
 2) knock.py - subdomain
 3) nmap - open ports
@@ -19,8 +21,9 @@ Tools used for webhacking
 18) crt.sh - certificate search
 19) OSINT
 20) live http headers - for tampering - firefox extension
-
-vulnerabilities
+----------------------------------------------------------------------------------------------------------------------------------------
+                                                         Vulnerabilities
+----------------------------------------------------------------------------------------------------------------------------------------
 1)xss
 2)sql
 3)template injecton(xss via angularexpression, rce via angexp)
@@ -52,8 +55,9 @@ vulnerabilities
 29) Direct static code injection (injecting xss, php or any type of scripts in useragent header field in requester using livehttpheaders) 
 30) Cross site tracing attack (XST)
 
-
-websites
+----------------------------------------------------------------------------------------------------------------------------------------
+                                                            Websites
+----------------------------------------------------------------------------------------------------------------------------------------
 1) panopticlick.eff.org - browser fingerprinting
 2) ipleak.net
 3) browserleaks.com/geo
